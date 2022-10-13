@@ -156,3 +156,12 @@ If you are looking for the Complete Typescript 2 Course - Build a REST API, the 
 
 ![Complete Typescript Course](https://angular-academy.s3.amazonaws.com/thumbnails/typescript-2-small.png)
 
+## NGRX with Angular 14+ and ngRX 14+
+to add correct reducers/index.ts whe need to type 
+this command ```ng g @ngrx/schematics:store State --root --module app.module.ts```
+instead ng add @ngrx/store
+
+
+### generating store module 
+this is for generating store module for components
+```ng g store auth/Auth --module auth.module.ts```
