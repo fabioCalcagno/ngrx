@@ -165,3 +165,12 @@ instead ng add @ngrx/store
 ### generating store module 
 this is for generating store module for components
 ```ng g store auth/Auth --module auth.module.ts```
+
+
+### Step by step - Implementing ngRX Actions arquiteture
+
+1. Create de action file with the properly actions that you need
+    1. create with props if you need to handle data, or just the mandatory type
+
+2. Create a file 'action-types' to keep it simple and centralized the exportation of the actions
+    1. dont forget to export your importer helper
